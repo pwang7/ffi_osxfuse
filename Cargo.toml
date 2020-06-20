@@ -1,0 +1,16 @@
+[package]
+name = "ffi_osxfuse"
+version = "0.1.0"
+authors = ["pwang"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+#env_logger = "0.6.0"
+#libc = "0.2.67"
+#log = "0.4.6"
+#nix = "0.17.0"
+
+[build-dependencies]
+cc = "1.0"
